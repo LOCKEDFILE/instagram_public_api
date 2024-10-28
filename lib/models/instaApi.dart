@@ -9,7 +9,7 @@ class FlutterInsta {
   ///return video duration
   PostTime secToMin(double time) {
     ///if time is 0 return value is 0.0s
-    if (time == 0 || time == null) {
+    if (time == 0) {
       return PostTime(duration: "0.0", unit: "S");
     }
     if (time < 60) {
